@@ -12,4 +12,10 @@ describe Akchabar do
     expect(rates["date"]).to be_a(String)
     expect(rates["rates"]["btc"]).to be_a(String)
   end
+
+  it "should return btc rate" do
+    btc_rate = Akchabar.btc_rate
+
+    expect(btc_rate).to be_a(Float)
+  end
 end
