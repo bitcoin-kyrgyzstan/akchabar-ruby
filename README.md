@@ -1,19 +1,18 @@
 # Akchabar::Ruby
 
+## Usage
+
 ```
 Akchabar.rates -> Hash with date and rates
 
 Akchabar.btc_rate -> Float(<bitcoin rate>)
 ```
-
-
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'akchabar-ruby'
+gem 'akchabar'
 ```
 
 And then execute:
@@ -24,9 +23,6 @@ Or install it yourself as:
 
     $ gem install akchabar-ruby
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
