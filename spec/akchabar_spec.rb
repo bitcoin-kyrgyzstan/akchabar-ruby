@@ -16,6 +16,6 @@ describe Akchabar do
   it "should return btc rate" do
     btc_rate = Akchabar.btc_rate
 
-    expect(btc_rate).to be_a(Float)
+    expect(btc_rate).to be_a(BigDecimal)
   end
 end

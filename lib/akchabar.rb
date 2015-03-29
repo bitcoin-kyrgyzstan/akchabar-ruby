@@ -1,6 +1,7 @@
 require "akchabar/version"
 require 'net/http'
 require 'json'
+require 'bigdecimal'
 
 module Akchabar
 
@@ -9,6 +10,6 @@ module Akchabar
   end
 
   def self.btc_rate
-    self.rates["rates"]["btc"].to_f
+    BigDecimal.new self.rates["rates"]["btc"]
   end
 end

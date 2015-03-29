@@ -3,9 +3,11 @@
 ## Usage
 
 ```
-Akchabar.rates -> Hash with date and rates
+> Akchabar.rates
+=> {"date"=>"28.03.2015", "rates"=>{"usd"=>"63.8956", "euro"=>"69.1446", "ruble"=>"1.1068", "tenge"=>"0.3445", "btc"=>"15580.303104"}, "updated_at"=>1427626744}
 
-Akchabar.btc_rate -> Float(<bitcoin rate>)
+> Akchabar.btc_rate
+=> #<BigDecimal:7ff01115e2e0,'0.1558030310 4E5',18(27)>
 ```
 ## Installation
 
