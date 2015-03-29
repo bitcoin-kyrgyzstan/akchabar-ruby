@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kalys Osmonov"]
   spec.email         = ["kalys@osmonov.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
+  #if spec.respond_to?(:metadata)
+    #spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+  #end
 
   spec.summary       = %q{API consumer for http://rates.akchabar.kg}
   spec.description   = %q{API consumer for http://rates.akchabar.kg. Returns USD/KGS, EUR/KGS, KZT/KGS, RUR/KGS, BTC/KGS rates.}
