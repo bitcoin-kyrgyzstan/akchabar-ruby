@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'akchabar/ruby/version'
+require 'akchabar/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "akchabar-ruby"
-  spec.version       = Akchabar::Ruby::VERSION
+  spec.name          = "akchabar"
+  spec.version       = Akchabar::VERSION
   spec.authors       = ["Kalys Osmonov"]
   spec.email         = ["kalys@osmonov.com"]
 
